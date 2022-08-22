@@ -23,7 +23,6 @@ const AddTodoForm = () => {
 
   return (
     <form onSubmit={onSubmit} className="mt-4 mb-4">
-      {/* <label className="sr-only">Name</label> */}
       <input
         type="text"
         className="form-control mb-2 mr-sm-2"
@@ -32,9 +31,9 @@ const AddTodoForm = () => {
         onChange={(event) => setValue(event.target.value)}
       >
 			</input>
-      {/* <button type="submit" className="btn btn-primary mb-2">
-        Submit
-      </button> */}
+      <button type="submit" className="btn btn-primary mb-2">
+        Save
+      </button>
     </form>
   );
 };

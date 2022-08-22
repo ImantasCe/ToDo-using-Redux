@@ -3,7 +3,8 @@ import { createSlice } from "@reduxjs/toolkit";
 const todoSlice = createSlice({
   name: 'todos',
   initialState: [
-    { id: 1, title: 'Todo 1', completed: false },
+    { id: 1, title: 'Test todo 1', completed: false },
+    { id: 2, title: 'Test todo 2', completed: true },
   ],
   reducers: {
     addTodo: (state, action) => {

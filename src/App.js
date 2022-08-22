@@ -8,7 +8,7 @@ const App = () => {
 	return (
 		<div className='container bg-white p-4 mt-5'>
 			<h1>Todo List</h1>
-			<p>using @reduxjs/toolkit</p>
+			<span>using @reduxjs/toolkit</span>
 			<AddTodoForm />
 			<TodoList />
 			<TotalCompleteItems />
